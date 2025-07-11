@@ -40,3 +40,9 @@ a {
     color-scheme: dark;
   }
 }
+
+
+
+body {
+  font-family: var(--font-inter), sans-serif;
+}
