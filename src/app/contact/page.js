@@ -41,7 +41,7 @@ export default function ContactPage() {
     }
     toast({
       title: 'Message Sent',
-      description: "Thanks for reaching out! I'll get back to you soon.",
+      description: `Thanks for reaching out! I'll get back to you soon.`,
       status: 'success',
       duration: 5000,
       isClosable: true,
@@ -72,8 +72,9 @@ export default function ContactPage() {
             Contact Me
           </Heading>
           <Text color="gray.400" mt={2}>
-            "Let's work together!"
+            {`Let's work together!`}
           </Text>
+
         </MotionBox>
 
         {/* Form */}
@@ -215,7 +216,7 @@ export default function ContactPage() {
         {/* Testimonials */}
         <Box mt={12}>
           <Heading size="lg" textAlign="center" color="teal.300" mb={6}>
-            "Trusted by clients worldwide" 
+            {`"Trusted by clients worldwide"`}
           </Heading>
           <SimpleGrid columns={{ base: 1, md: 2 }} spacing={6}>
             <Box
@@ -226,7 +227,7 @@ export default function ContactPage() {
               _hover={{ boxShadow: 'xl', transform: 'scale(1.02)', transition: 'all 0.3s ease' }}
             >
               <Text color="gray.300">
-                "Manoj did an amazing job on our website. Highly recommend!"
+                {`"Manoj did an amazing job on our website. Highly recommend!"`}
               </Text>
               <Text mt={2} fontWeight="bold" color="teal.300">
                 – Raj verma
@@ -240,7 +241,7 @@ export default function ContactPage() {
               _hover={{ boxShadow: 'xl', transform: 'scale(1.02)', transition: 'all 0.3s ease' }}
             >
               <Text color="gray.300">
-                "Professional, timely, and great communication throughout the project."
+                {`"Professional, timely, and great communication throughout the project."`}
               </Text>
               <Text mt={2} fontWeight="bold" color="teal.300">
                 – Pratik Sharma

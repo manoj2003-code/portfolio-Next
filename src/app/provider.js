@@ -7,19 +7,20 @@
 // स्टेट मैनेजमेंट   UI/theme/state provider
 // कस्टम हुक्स
 
-"use client"
+"use client";
 
-import { ChakraProvider, defaultSystem } from "@chakra-ui/react"
-import { ThemeProvider } from "next-themes"
+import { ChakraProvider } from "@chakra-ui/react";
+import { ThemeProvider } from "next-themes";
 
 export default function RootLayout({ children }) {
   return (
-    <ChakraProvider value={defaultSystem}>
+    <ChakraProvider>
       <ThemeProvider attribute="class" disableTransitionOnChange>
         {children}
       </ThemeProvider>
     </ChakraProvider>
-  )
+  );
 }
+
 
 

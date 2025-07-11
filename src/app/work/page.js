@@ -44,8 +44,9 @@ export default function WorkPage() {
             My Work
           </Heading>
           <Text maxW="2xl" color="gray.400">
-            Here are some of the projects I've worked on recently. I love creating beautiful and functional web applications.
+            {`Here are some of the projects I've worked on recently. I love creating beautiful and functional web applications.`}
           </Text>
+
         </VStack>
 
         {/* Projects Grid */}

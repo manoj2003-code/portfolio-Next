@@ -54,10 +54,11 @@ export default function About() {
             />
 
             <Text fontSize="lg" maxW="2xl" color="gray.300">
-              Hi! I'm Manoj Nagpure, a Front-End Web Developer passionate about building beautiful,
+              {`Hi! I'm Manoj Nagpure, a Front-End Web Developer passionate about building beautiful,
               responsive, and user-friendly websites. I specialize in React, Next.js, Chakra UI,
-              and Tailwind CSS to deliver high-quality digital experiences.
+              and Tailwind CSS to deliver high-quality digital experiences.`}
             </Text>
+
 
             {/* Social Icons */}
             <Stack direction="row" spacing={4} pt={2}>

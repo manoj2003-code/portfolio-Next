@@ -56,10 +56,11 @@ export default function AboutPage() {
             />
 
             <Text fontSize="lg" maxW="2xl" color="gray.300">
-              Hi! I'm Manoj Nagpure, a Front-End Web Developer passionate about building beautiful,
+              {`Hi! I'm Manoj Nagpure, a Front-End Web Developer passionate about building beautiful,
               responsive, and user-friendly websites. I specialize in React, Next.js, Chakra UI,
-              and Tailwind CSS to deliver high-quality digital experiences.
+              and Tailwind CSS to deliver high-quality digital experiences.`}
             </Text>
+
 
             {/* Social Icons */}
             <Stack direction="row" spacing={4} pt={2}>
@@ -152,7 +153,6 @@ export default function AboutPage() {
                 rounded="md"
                 boxShadow="0px 0px 2px aqua"
                 textAlign="center"
-                // _hover={{ boxShadow: 'xl', transform: 'scale(1.03)' }}
                 transition={{ duration: 0.5, delay: i * 0.1, ease: "easeInOut" }}
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}

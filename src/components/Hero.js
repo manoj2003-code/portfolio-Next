@@ -21,7 +21,7 @@ export default function Hero() {
                 bgGradient="linear(to-r, orange.300, green.800)"
                 bgClip="text"
                 >
-                Hey, I'm <br /> Manoj Nagpure
+                Hey, I&apos;m <br /> Manoj Nagpure
             </Heading>
 
             <Text fontSize="xl" fontWeight="500" p="0px 20px" color="gray.300">
