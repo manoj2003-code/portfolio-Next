@@ -25,7 +25,7 @@ export default function Hero() {
             </Heading>
 
             <Text fontSize="xl" fontWeight="500" p="0px 20px" color="gray.300">
-              I'm a Front-End Web Developer with a strong focus on creating modern, responsive, and accessible web interfaces.
+              I&apos;m a Front-End Web Developer with a strong focus on creating modern, responsive, and accessible web interfaces.
             </Text>
             <Button
               as={NextLink}
